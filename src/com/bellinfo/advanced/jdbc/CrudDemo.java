@@ -5,7 +5,7 @@ import java.util.Properties;
 public class CrudDemo {
     public static void main(String[] args) {
 
-        String url ="jdbc:postgresql://awspostgres.csty0odvcpoz.us-east-1.rds.amazonaws.com:5432/belljavasep";
+        String url ="jdbc:postgresql://127.0.0.1:5432/belljavasep";
         Properties prop = new Properties();
         prop.setProperty("user","postgres");
         prop.setProperty("password", "vinod143");
